@@ -51,4 +51,4 @@ if __name__ == '__main__':
     log_file_path = os.path.join(log_dir, log_file)
     print(f"Logging to: {log_file_path}")
     
-    alphabet_checker.run(debug=True)
+    alphabet_checker.run(debug=True, host='0.0.0.0')
